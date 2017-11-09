@@ -1,5 +1,7 @@
 # Android Clean Architecture
 
+![](https://media.giphy.com/media/1j0LMjc0lRalUChW/giphy.gif)
+
 ## Reference resources:
 
 * [Kotlin](https://kotlinlang.org/)
@@ -11,3 +13,7 @@
 * [OkHttp](http://square.github.io/okhttp/)
 * [Gson](https://github.com/google/gson)
 * [Timber](https://github.com/JakeWharton/timber)
+
+## API used
+
+* [RandomUser](https://randomuser.me/)
