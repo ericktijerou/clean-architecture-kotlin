@@ -1,4 +1,4 @@
-# Android Clean Architecture
+# Kotlin Clean Architecture
 
 ![](https://media.giphy.com/media/1j0LMjc0lRalUChW/giphy.gif)
 
