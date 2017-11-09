@@ -5,5 +5,5 @@ package android.erick.remote.model
  */
 open class BaseResponse<T> {
     var info: InfoResponse? = null
-    var result: T? = null
+    var results: T? = null
 }

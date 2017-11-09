@@ -16,13 +16,13 @@ import java.util.concurrent.TimeUnit
 
 object RandomServiceFactory {
 
-    fun makeBuffeoorService(isDebug: Boolean): RandomService {
+    fun makeRandomService(isDebug: Boolean): RandomService {
         val okHttpClient = makeOkHttpClient(
                 makeLoggingInterceptor(isDebug))
-        return makeBufferooService(okHttpClient, makeGson())
+        return makeRandomService(okHttpClient, makeGson())
     }
 
-    private fun makeBufferooService(okHttpClient: OkHttpClient, gson: Gson): RandomService {
+    private fun makeRandomService(okHttpClient: OkHttpClient, gson: Gson): RandomService {
         val retrofit = Retrofit.Builder()
                 .baseUrl("https://randomuser.me/")
                 .client(okHttpClient)

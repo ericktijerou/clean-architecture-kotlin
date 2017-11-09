@@ -77,6 +77,8 @@ android {
 
 kapt {
     correctErrorTypes = true
+    generateStubs = true
+
 }
 
 configurations.all {
